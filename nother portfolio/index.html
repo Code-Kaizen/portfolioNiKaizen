@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="loader-wrapper" id="loader_wrapper">
+  <div class="loader"></div>
+</div>
+    <section id="home">
+    <div class="header">
+        <h1 id="yo"><span>K</span>aizen</h1>
+        <i class="fa-solid fa-bars" id="hamburger" onclick="openNav()"></i>
+        <nav id="navLinks">
+            <ul>
+                <li><a data-active="#home" onclick="closeNav()" href="#home">HOME</a></li>
+                <li><a data-active="#about" onclick="closeNav()" href="#about">ABOUT</a></li>
+                <li><a data-active="#proj" onclick="closeNav()" class="whosh" href="#proj">PROJECTS</a></li>
+                <li><a data-active="#contact" onclick="closeNav()" href="#contact">CONTACT</a></li>
+            </ul>
+            <i class="fa-solid fa-xmark" onclick="closeNav()"></i>
+        </nav>
+    </div>
+    <div class="text-wrapper">
+        <div class="static-txt">Hi I'm <span>Kaizen,</span> a</div>
+        <ul class="dynamic-txts">
+            <li><span>Web Developer</span></li>
+            <li><span>Gamer</span></li>
+            <li><span>Student</span></li>
+            <li><span>Video Editor</span></li>
+        </ul>
+    </div>
+    <div class="bordered" style="width: 360px; height: 329px;"></div>
+    <p class="lorem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, eveniet.</p>
+    <a href="#about"><button class="btn">EXPLORE
+    </button></a>
+</section>
+<section id="about">
+    <div class="custom-shape-divider-top-1670503643">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="about-wrapper" data-aos="zoom-in">
+        <div class="card">
+            <div class="card2"> 
+                <img src="/logo.png" alt="">
+            </div>
+          </div>
+          <div class="about">
+            <h2>About <span>ME</span> </h2>
+            <p>Started getting <strong>interest</strong> to programming since august, 2022 and amaze by because of how the world of programming works. I am still on the state of gaining knowledge on these programming languages, <strong>java script</strong> and <strong>python</strong> are the languages i'm currently taking as of now.</p>
+            <nav class="about-links">
+                <ul>
+                    <li><a id="navs" onclick="openSkills()">Services</a></li>
+                    <li><a id="navs2" onclick="openExp()">Experience</a></li>
+                    <li><a id="navs3" onclick="openEduc()">Education</a></li>
+                </ul>
+            </nav>
+            <div class="info-wrapper" id="info_Wrapper1" style="position: absolute; transition: 0.5s;">
+            <h3>UI/UX</h3>
+            <p>Designing Web/App Interfaces</p>
+            <h3>Web Development</h3>
+            <p>Web app Development</p>
+            <h3>App Development</h3>
+            <p>Building Andriod Apps</p>
+          </div>
+            <div class="info-wrapper" id="info_Wrapper2" style="opacity: 0; position: absolute; transition: 0.5s;">
+            <h3>August, 2022</h3>
+            <p>Started learning programming</p>
+            <br>
+            <br>
+            <br>
+            <p><a href="#" target="_blank">> Learn more about my capabilities</a></p>
+          </div>
+            <div class="info-wrapper" id="info_Wrapper3" style="opacity: 0; position: absolute; transition: 0.5s;">
+            <h3>School</h3>
+            <p>Study at University of the Visayas</p>
+            <h3>Current Grade Level</h3>
+            <p>Grade 11(first yr SHS)</p>
+          </div>
+        </div>
+        </div>
+</section>
+<section id="proj">
+  <!-- <div class="custom-shape-divider-top-1670549239">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div> -->
+    <h3 class="wahaha">PROJECTS</h3>
+    <div class="proj-wrapper">
+        <div class="upper">
+            <a href="img.html" target="_blank"><div data-aos="flip-right" class="img-wrapper1" id="zoom"></div></a>
+            <a href="img.html" target="_blank"><div data-aos="flip-right" class="img-wrapper2" id="zoom"></div></a>
+        </div>
+        <div class="upper">
+            <a href="img.html" target="_blank"><div data-aos="flip-right" class="img-wrapper3"></div></a>
+            <a href="img.html" target="_blank"><div data-aos="flip-right" class="img-wrapper4"></div></a>
+        </div> 
+        <a href="img.html" target="_blank"><div class="special" data-aos="flip-right"></div>
+    </div></a>
+    <div class="custom-shape-divider-bottom-1670556192">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+  </div>
+</section>
+<section id="contact">
+    <h3>CONTACT ME</h3>
+    <div class="cont-details-wrapper">
+        <div class="details" data-aos="fade-right">
+            <div class="flex">
+            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+                <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path>
+                <path d="M12 2v2"></path>
+                <path d="M12 20v2"></path>
+                <path d="M20 12h2"></path>
+                <path d="M2 12h2"></path>
+              </svg>
+              <p>Adress</p>
+            </div>
+              <i>Cebu City, Pardo</i>
+        </div>
+        <div class="details" data-aos="fade-left">
+            <div class="flex">
+            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+                <path d="M18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+                <path d="M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+                <path d="m8.7 10.697 6.6-3.4"></path>
+                <path d="m8.7 13.297 6.6 3.4"></path>
+              </svg>
+              <p>Social Media</p>
+            </div>
+              <a href="https://www.facebook.com/johnrey.amodia.73/?viewas=&should_open_composer=false&show_switched_toast=false&show_invite_to_follow=false&show_switched_tooltip=false&show_podcast_settings=false&show_community_transition=false&show_community_review_changes=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true" target="_blank"><i class="fa-brands fa-facebook" style="color: #bd2745;font-size: 25px;"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-square-instagram" style="color: #bd2745;font-size: 25px;"></i></a>
+        </div>
+        <div id="copy"class="details" data-aos="fade-right">
+            <i class="fa-regular fa-copy"></i>
+            <div class="flex">
+            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Z"></path>
+                <path d="m3 7 9 6 9-6"></path>
+              </svg>
+              <p>Email</p>
+            </div>
+              <i>amodiajohnrey2006@gmail.com</i>
+        </div>
+        <div id="copy2" class="details" data-aos="fade-left">
+            <i class="fa-regular fa-copy"></i>
+            <div class="flex">
+            <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"></path>
+                <path d="M15 7a2 2 0 0 1 2 2"></path>
+                <path d="M15 3a6 6 0 0 1 6 6"></path>
+              </svg>
+              <p>Phone Number</p>
+            </div>
+              <i>+63 975-411-8645</i>
+        </div>
+    </div>
+    <h3 class="fillup">Fill UP</h3>
+    <p class="below">please fill up to contact me <i>K</i> through this.</p>
+    <div class="form-wrapper">
+        <div class="group">
+            <input required="" type="text" class="input">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>First Name</label>
+          </div>
+          <div class="group">
+            <input required="" type="text" class="input">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Last Name</label>
+          </div>
+          <div class="group">
+            <input required="" type="Email" class="input">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Email</label>
+          </div>
+          <div class="group">
+            <input required="" type="text" class="input">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Purpose</label>
+          </div>
+          <button class="send">
+            <div class="svg-wrapper-1">
+              <div class="svg-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                </svg>
+              </div>
+            </div>
+            <span>Send</span>
+          </button>
+    </div>
+    <footer class="footer">
+        &copy; Kaizen's All Rights reserve.
+        <div></div>
+    </footer>
+</section>
+    <script src="index.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
